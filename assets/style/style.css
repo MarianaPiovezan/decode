@@ -1,4 +1,136 @@
+@font-face{
+  font-family: inter;
+  src: url("../font/inter.ttf");
+}
+
 :root {
-  background-color: #ba928b;
+  /*colors*/
+  --gradient-light-color: #f3d6f3;
+  --gradient-light:linear-gradient(150deg, #f3d6f3 0%, #D7F0F9 35%, #f5f9f9 99%);
+  --gradient-medium-color: #70a4da;
+  --gradient-medium: linear-gradient(135deg, #70a4da 0%, #d199ff 100%);
+  --text-color: #70A4DA;
+
+  /*font-family*/
+  --text: inter;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html{
+  scrool-behavior:smooth;
+}
+
+body{
+  font-family: var(--text);
+  display: block;
+  position:fixed;
+  position: relative;
+  
+
+}
+
+header{
+  width: 100%;
+  background-color: var(--gradient-medium-color);
+  background-image: var(--gradient-medium);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 20px;
+  padding: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+ 
+}
+
+h1{
   color: #fff;
 }
+
+main{
+  padding: 7rem 1.5rem;
+  background-color: var(--gradient-light-color);
+  background-image: var(--gradient-light);
+
+ 
+
+  font-weight: 400;
+}
+
+.form-container{
+
+}
+
+.textarea{
+  width: 100%;
+  padding: 1.5rem;
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 400;
+  border-radius:0.5rem;
+  border:none;
+  resize: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 20px;
+  outline: none;
+  
+}
+
+.textarea::placeholder{
+  color: var(--text-color);
+  font-family: var(--text);
+}
+
+.label{
+  display:flex;
+  align-self:center;
+  margin: 0.125rem 0;
+  color: var(--text-color);
+}
+
+.label::before{
+  content: "\1F6C8";
+  color: darkred;
+  margin-right:0.25rem;
+  font-size:1.5rem;
+ 
+}
+
+.form-btn{
+  display:flex;
+  flex-direction: column;
+  gap: 1rem;}
+
+.btn{
+  width: 100%;
+  padding: 1.5rem 0;
+  border-radius: 1.5rem;
+  background-color: transparent;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: var(--text);
+}
+
+.btn-primary{
+  background-color: var(--gradient-medium-color);
+  background-image: var(--gradient-medium);
+  
+
+  border: none;
+  color: #fff;
+}
+
+
+
+
+
+
+
