@@ -10,6 +10,8 @@
   --gradient-medium-color: #70a4da;
   --gradient-medium: linear-gradient(135deg, #70a4da 0%, #d199ff 100%);
   --text-color: #70A4DA;
+  --alt-color:#F3F5FC;
+
 
   /*font-family*/
   --text: inter;
@@ -50,15 +52,16 @@ header{
 }
 
 h1{
-  color: #fff;
+  color: var(--alt-color);
 }
 
 main{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   padding: 7rem 1.5rem;
   background-color: var(--gradient-light-color);
   background-image: var(--gradient-light);
-
- 
 
   font-weight: 400;
 }
@@ -77,7 +80,7 @@ main{
   border-radius:0.5rem;
   border:none;
   resize: none;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 20px;
+  box-shadow: 0px 5px 20px -4px rgba(0, 0, 0, 0.08);
   outline: none;
   
 }
@@ -125,8 +128,34 @@ main{
   
 
   border: none;
-  color: #fff;
+  color: var(--alt-color);
 }
+
+.decode{
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  border-radius: 2rem;
+
+}
+
+.decode-imge{
+  display:none;
+}
+
+.decode-title{
+  color: var(--text-color);
+  text-align: center;
+
+}
+
+.btn-desable{
+  display: none;
+}
+
+
+
 
 
 
