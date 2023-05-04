@@ -1,0 +1,24 @@
+.btn{
+    width: 100%;
+    padding: 1.5rem 0;
+    border-radius: 1.5rem;
+    background-color: transparent;
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--text);
+  }
+  
+  .btn-primary{
+    background-color: var(--gradient-medium-color);
+    background-image: var(--gradient-medium);
+    
+  
+    border: none;
+    color: var(--alt-color);
+  }
+  
+  .btn-desable{
+    display: none;
+  }

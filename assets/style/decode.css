@@ -1,0 +1,25 @@
+.decode{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+  
+  .decode-imge{
+    display:none;
+  }
+  
+  .decode p{
+   text-align: center;
+   color: var(--text-color);
+  }
+  
+  .decode-title{
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+  }
