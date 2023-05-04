@@ -1,0 +1,41 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: var(--gradient-medium-color);
+    background-image: var(--gradient-medium);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 20px;
+    padding: 1.5rem;
+    z-index: 1;
+   
+  }
+
+  .footer-text{
+    gap: .75rem;
+  }
+  
+  .footer p{
+    color: var(--alt-color);
+  
+  }
+
+  .footer-media{
+    display: flex;
+    gap: 1rem;
+
+  }
+
+  .footer-icon img{
+    width: 2.125rem;
+    
+  }
+
+  .footer-icon {
+    transition: all 0.3s ease-in-out;
+    
+  }
+
+  .footer-icon:hover{
+    transform: translateY(-8px);
+  }
