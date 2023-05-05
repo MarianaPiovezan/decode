@@ -49,7 +49,7 @@ body{
 }
 
 main{
- 
+ height: 98vh;
   padding: 7rem 0 2rem 0;
   background-color: var(--gradient-light-color);
   background-image: var(--gradient-light);
