@@ -1,5 +1,7 @@
 .form-container{
-
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
 }
 
 .textarea{
@@ -23,18 +25,16 @@
 }
 
 .label{
-  display:flex;
-  align-self:center;
   margin: 0.125rem 0;
   color: var(--text-color);
+  font-weight: 500;
 }
 
-.label::before{
-  content: "\1F6C8";
-  color: darkred;
-  margin-right:0.25rem;
-  font-size:1.5rem;
+.label-icon{
+    width: 1rem;
 }
+
+
 
 .form-btn{
   margin-top: 0.7rem;
