@@ -45,7 +45,7 @@ body{
   margin-right: 1.5rem;
 }
 .logo{
-  color: var(--alt-color);
+  width: 4rem;
 }
 
 main{
