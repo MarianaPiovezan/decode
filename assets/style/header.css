@@ -3,9 +3,15 @@ header{
     background-color: var(--gradient-medium-color);
     background-image: var(--gradient-medium);
     box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 20px;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     position: absolute;
     left: 0;
     top: 0;
     z-index: 3;
 }  
+
+/************* MEDIA QUERIES ***********/
+
+@media (min-width: 1200px) {
+
+}
