@@ -3,12 +3,13 @@
     height: 100%;
     background-color: #fff;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 2rem;
     overflow: hidden;
+
   }
   
-  .decode-imge{
+  .decode-image img{
     display:none;
   }
   
@@ -19,7 +20,18 @@
   
   .decode-title{
     color: var(--text-color);
+    font-size: 1.5rem;
     text-align: center;
     margin-bottom: 0.75rem;
     overflow: hidden;
+  }
+
+  /************* MEDIA QUERIES ***********/
+
+@media (min-width: 1200px) {
+    .decode-image img{
+        display:block;
+        width: 10rem;
+        margin: 0 auto;
+      }
   }
