@@ -15,37 +15,50 @@
 
 <body>
   <header>
-    <h1 class="logo">D</h1>
+    <div class="container">
+      <h1 class="logo ">D</h1>
+    </div>
   </header>
   <main>
-    <form class="form-container">
-      <textarea class="textarea" name="mesage" id="" rows="6"
-        placeholder="Digite o que deseja criptografar"></textarea>
-      <label class="label" for="mesage">Apenas letras minúsculas e sem acento. </label>
-      <div class="form-btn">
-        <button class="btn btn-primary">Criptografar</button>
-        <button class="btn btn-secondary">Descriptografar</button>
+    <div class="container project ">
+      <form class="form-container container">
+        <div>
+        <textarea class="textarea" name="mesage" id="" rows="6"
+          placeholder="Digite o que deseja criptografar"></textarea>
+        <label class="label" for="mesage"> <img class="label-icon" src="./assets/images/icon-important.png" alt="Informação importante"/> Apenas letras minúsculas e sem acento. </label>
       </div>
-    </form>
-    <div class="decode">
-      <img class="decode-image" src="" alt="">
-      <h2 class="decode-title">Nenhuma mensagem encontrada</h2>
-      <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-      <button class="btn btn-desable"> Copiar</button>
+        <div class="form-btn">
+          <button class="btn btn-primary">Criptografar</button>
+          <button class="btn btn-secondary">Descriptografar</button>
+        </div>
+      </form>
+      <div class="decode">
+        <div class="decode-image float-effect">
+        <img  src="./assets/images/robot.png" alt="Robo sorrindo">
+      </div>
+        <div class="decode-text">
+          <h2 class="decode-title">Nenhuma mensagem encontrada</h2>
+          <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+        <button class="btn btn-desable"> Copiar</button>
+      </div>
     </div>
   </main>
-  <footer class="footer">
-    <div class="footer-brand">
-    <h1 class="logo">D</h1>
-    <P>Desenvolvido por <strong> Mariana Piovezan </strong></P>
-  </div>
-</div>
-    <div class="footer-media">
-      <a class="footer-icon" href="#" target="_blank"><img src="./assets/images/icon-linkedin.png" alt="Logo do Linkedin"></a>
-      <a class="footer-icon" href="#" target="_blank"><img src="./assets/images/icon-github.png" alt="Logo do Github"></a>
-      <a class="footer-icon" href="#" target="_blank"><img src="./assets/images/icon-email.png" alt=" Email"></a>
-
-    
+  <footer>
+    <div class="container footer">
+      <div class="footer-brand">
+        <h1 class="logo">D</h1>
+        <P>Desenvolvido por <strong> Mariana Piovezan </strong></P>
+        <P>Challenge Programa ONE e Alura</P>
+      </div>
+      <div class="footer-media">
+        <a class="footer-icon" href="https://www.linkedin.com/in/mariana-piovezan1/" target="_blank"><img src="./assets/images/icon-linkedin.png"
+            alt="Logo do Linkedin"></a>
+        <a class="footer-icon" href="https://github.com/MarianaPiovezan" target="_blank"><img src="./assets/images/icon-github.png"
+            alt="Logo do Github"></a>
+        <a class="footer-icon" href="#" target="_blank"><img src="./assets/images/icon-email.png" alt=" Email"></a>
+      </div>
+    </div>
   </footer>
   <script src="./main.js"></script>
 </body>
