@@ -31,6 +31,7 @@ html{
 }
 
 body{
+  width: 100%;
   font-family: var(--text);
   display: block;
   position:fixed;
@@ -38,19 +39,45 @@ body{
   
 
 }
+
+.container{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
 .logo{
   color: var(--alt-color);
 }
 
 main{
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 7rem 1.5rem 2rem 1.5rem;
+ 
+  padding: 7rem 0 2rem 0;
   background-color: var(--gradient-light-color);
   background-image: var(--gradient-light);
 
   font-weight: 400;
+}
+
+main .project{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+
+/************* MEDIA QUERIES ***********/
+
+@media (min-width: 1200px) {
+  .container{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+ main .project{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1.5rem;
+  
+  }
 }
 
 
