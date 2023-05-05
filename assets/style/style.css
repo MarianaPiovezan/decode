@@ -9,6 +9,8 @@
   --gradient-light:linear-gradient(150deg, #f3d6f3 0%, #D7F0F9 35%, #f5f9f9 99%);
   --gradient-medium-color: #70a4da;
   --gradient-medium: linear-gradient(135deg, #70a4da 0%, #d199ff 100%);
+  --gradient-dark-color: #4191ce;
+  --gradient-dark: linear-gradient(135deg, #4191ce 0%, #9951ed 100%);
   --text-color: #70A4DA;
   --alt-color:#F3F5FC;
 
