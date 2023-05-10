@@ -33,10 +33,9 @@ html{
 }
 
 body{
-  width: 100%;
+  width: 100vw;
   font-family: var(--text);
   display: block;
-  position:fixed;
   position: relative;
   
 
@@ -46,13 +45,15 @@ body{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
-.logo{
-  width: 4rem;
+.logo img{
+  margin-top: 5px;
+  width: 3.5rem;
+  height: fit-content;
 }
 
 main{
- height: 98vh;
-  padding: 8rem 0 2rem 0;
+  height: fit-content;
+  padding: 7rem 0 2rem 0;
   background-color: var(--gradient-light-color);
   background-image: var(--gradient-light);
 
@@ -81,6 +82,10 @@ main .project{
     max-width: 80%;
     margin: 0 auto;
   }
+
+main{
+  height: 98vh;
+}
 
  main .project{
     display: grid;
