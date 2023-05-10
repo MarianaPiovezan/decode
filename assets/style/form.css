@@ -52,7 +52,7 @@ height: 100%;
 
 /************* MEDIA QUERIES ***********/
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
     .form-btn{
         flex-direction: row;
         gap: 1.5rem;
