@@ -1,0 +1,21 @@
+{
+  "name": "decode",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido com o objetivo de criar um programa que criptografe  e descriptografe textos conforme solicitado.",
+  "main": "decrypty.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarianaPiovezan/decode.git"
+  },
+  "author": "Mariana Piovezan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarianaPiovezan/decode/issues"
+  },
+  "homepage": "https://github.com/MarianaPiovezan/decode#readme",
+  "type": "module"
+}
