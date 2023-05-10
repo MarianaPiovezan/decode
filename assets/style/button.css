@@ -26,8 +26,9 @@
     color: var(--alt-color);
   }
   
-  .btn-desable{
-    display: none;
+  .btn-copy{
+    padding: 0.5rem;
+    width: 70%;
   }
 
 
