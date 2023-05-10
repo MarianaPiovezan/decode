@@ -21,6 +21,7 @@
   </header>
   <main>
     <div class="container project ">
+      <p class="error">Ops... Digite uma palavra ou mensagem antes de apertar o botão!</p>
       <form class="form-container ">
         <div>
           <textarea class="textarea" name="mesage" id="" rows="6"
@@ -29,24 +30,22 @@
               alt="Informação importante" /> Apenas letras minúsculas e sem acento. </label>
         </div>
         <div class="form-btn">
-          <button class="btn btn-primary">Criptografar</button>
-          <button class="btn btn-secondary">Descriptografar</button>
+          <button class="btn btn-primary encripty" onclick="btnEncrypty()">Criptografar</button>
+          <button class="btn btn-secondary 
+          decrypt">Descriptografar</button>
         </div>
       </form>
-      <!-- <div class="decode">
+      <div class="decode-empty">
         <div class="decode-image float-effect">
           <img src="./assets/images/robot.png" alt="Robo sorrindo">
-        </div> -->
-        <!-- <div class="decode-text">
+        </div>
+        <div class="decode-text">
           <h2 class="decode-title">Nenhuma mensagem encontrada</h2>
           <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
         </div>
-        <button class="btn btn-desable"> Copiar</button>
-      </div> -->
-      <div class="decode active">
-         <div>
-          <p class="result"></p>
-        </div>
+      </div>
+      <div class="decode-result">
+        <p class="result-text"></p>
         <button class="btn btn-copy"> Copiar</button>
       </div>
     </div>
