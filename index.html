@@ -30,9 +30,9 @@
               alt="Informação importante" /> Apenas letras minúsculas e sem acento. </label>
         </div>
         <div class="form-btn">
-          <button type="button" class="btn btn-primary encripty" onclick="btnEncrypty()">Criptografar</button>
-          <button type="button" class="btn btn-secondary 
-          decrypt" onclick="btnDecrypty()">Descriptografar</button>
+          <button id="btn-encrypt" type="button" class="btn btn-primary encrypt" >Criptografar</button>
+          <button id="btn-decrypt" type="button" class="btn btn-secondary 
+          decrypt">Descriptografar</button>
         </div>
       </form>
       <div class="decode-empty">
@@ -66,8 +66,8 @@
       </div>
     </div>
   </footer>
-  <script src="./js/encrypty.js"></script>
-  <script  src="./js/decrypty.js"></script>
+  <script type="module" src="./js/encrypty.js"></script>
+  <script type="module" src="./js/decrypty.js"></script>
 </body>
 
 </html>

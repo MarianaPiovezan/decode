@@ -5,27 +5,27 @@ export const decodeResult = document.querySelector(".decode-result");
 export const error = document.querySelector(".error");
 
 
-function encrypty(stringEncrypty) {
+function encrypty(stringEncrypt) {
     const keys = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
 
-    stringEncrypty = stringEncrypty.toLowerCase();
+    stringEncrypt = stringEncrypt.toLowerCase();
 
     for (let i = 0; i < keys.length; i++) {
-        if (stringEncrypty.includes(keys[i][0])) {
-            stringEncrypty = stringEncrypty.replaceAll(keys[i][0], keys[i][1]);
+        if (stringEncrypt.includes(keys[i][0])) {
+            stringEncrypt = stringEncrypt.replaceAll(keys[i][0], keys[i][1]);
 
         }
     }
-    return stringEncrypty;
+    return stringEncrypt;
 };
 
-function btnEncrypty() {
-    const textEncrypty = encrypty(textarea.value);
+function btnEncrypt() {
+    const textEncrypt = encrypty(textarea.value);
 
     if (textarea.value === "") {
         error.style.display = "block";
     } else {
-        resultText.innerHTML = `${textEncrypty}`;
+        resultText.innerHTML = `${textEncrypt}`;
         textarea.value = "";
         decodeResult.style.display = "flex";
         decodeEmpty.style.display = "none";
@@ -35,4 +35,4 @@ function btnEncrypty() {
 
 };
 
-
+document.getElementById("btn-encrypt").addEventListener("click", btnEncrypt);
