@@ -1,4 +1,4 @@
-import { textarea, resultText, decodeEmpty, decodeResult, error } from "./encrypty";
+import { textarea, resultText, decodeEmpty, decodeResult, error } from "./encrypty.js";
 
 
 function decrypty(stringEncrypty) {
@@ -27,3 +27,4 @@ function btnDecrypty() {
 
 };
 
+document.getElementById("button-dec").addEventListener("click", btnDecrypty)

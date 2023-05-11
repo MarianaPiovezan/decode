@@ -35,4 +35,4 @@ function btnEncrypty() {
 
 };
 
-
+document.getElementById("button-enc").addEventListener("click", btnEncrypty)
