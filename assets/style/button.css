@@ -3,7 +3,7 @@
     padding: 1.5rem 0;
     border-radius: 1.5rem;
     background-color: transparent;
-    border: 2px solid var(--text-color);
+    border: 3px solid var(--text-color);
     color: var(--text-color);
     font-size: 1rem;
     font-weight: bold;
@@ -15,20 +15,50 @@
     background-color: var(--gradient-dark-color);
     background-image: var(--gradient-dark);
     color: var(--alt-color);
-    border: 2px solid transparent;
+    border: 3px solid transparent;
     cursor: pointer;
   }
   
   .btn-primary{
     background-color: var(--gradient-medium-color);
     background-image: var(--gradient-medium);
-    border: 2px solid transparent;  
+    border: 3px solid transparent;  
     color: var(--alt-color);
   }
   
   .btn-copy{
     padding: 0.5rem;
     width: 70%;
+  }
+
+  #btn-close-result{
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    justify-content: center;
+    align-items:center;
+    
+    right: 1.5rem;
+    top: 1.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid var(--text-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--text);
+    transition: all 0.3s ease-in-out;
+    
+  }
+
+  #btn-close-result:hover{
+    background-color: var(--gradient-medium-color);
+    background-image: var(--gradient-medium);
+    border: 3px solid transparent;  
+    color: var(--alt-color);
+    cursor: pointer;
+
   }
 
 
