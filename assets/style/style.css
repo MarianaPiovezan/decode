@@ -45,11 +45,25 @@ body{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  color: #030D14;
+  font-size: 1.5rem;
+}
 .logo img{
-  margin-top: 5px;
+  
   width: 3.5rem;
   height: fit-content;
-}
+  margin-right: 8px;}
+
+/* .logo span{
+  color: #030D14;
+} */
+
 
 main{
   height: fit-content;
@@ -72,8 +86,12 @@ main .project{
   display: none;
   position: absolute;
   top: -20px;
-
+  color: var(--text-color);
+  margin-left: 8px;  
+  font-weight: 600;
 }
+
+
 
 /************* MEDIA QUERIES ***********/
 

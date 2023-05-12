@@ -31,9 +31,11 @@
 
   .decode-result{
   display: none;
+  position: relative;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 1.5rem;
   padding : 1.5rem;
   width: 100%;
   height: 100%;
@@ -48,6 +50,14 @@
   .result-text{
     width : 100%;
     height: 100%;
+    color: var(--text-color);
+    padding-right: 1.5rem;
+    font-size:1.125rem;
+    font-weight:500;
+    overflow: auto;
+
+    
+
   }
 
   /************* MEDIA QUERIES ***********/
