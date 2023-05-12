@@ -1,30 +1,35 @@
 import { textarea, resultText, decodeEmpty, decodeResult, error } from "./encrypt.js";
 
 
-function decrypt(stringEncrypt) {
+function decrypt(stringDecrypt) {
     const keys = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
 
-    stringEncrypt = stringEncrypt.toLowerCase();
+    stringDecrypt = stringDecrypt.toLowerCase();
 
     for (let i = 0; i < keys.length; i++) {
-        if (stringEncrypt.includes(keys[i][1])) {
-            stringEncrypt = stringEncrypt.replaceAll(keys[i][1], keys[i][0]);
+        if (stringDecrypt.includes(keys[i][1])) {
+            stringDecrypt = stringDecrypt.replaceAll(keys[i][1], keys[i][0]);
 
-        }
+        } 
     }
-    return stringEncrypt;
+    return stringDecrypt;
 };
 
-function btnDecrypty() {
-    const textDecrypt = decrypt(resultText);
-
+function btnDecrypt() {
+    const textDecrypt = decrypt(textarea.value);
     
+    if (textarea.value === "") {
+        error.style.display = "block";
+        decodeEmpty.style.display = "flex";
+        decodeResult.style.display = "none";
+      
+    }else{
         resultText.innerHTML = `${textDecrypt}`;
         textarea.value = "";
         decodeResult.style.display = "flex";
         decodeEmpty.style.display = "none";
         error.style.display = "none";  
-
+    }
 };
 
-document.getElementById("btn-decrypt").addEventListener("click", decrypt);
+document.getElementById("btn-decrypt").addEventListener("click", btnDecrypt);

@@ -24,6 +24,8 @@ function btnEncrypt() {
 
     if (textarea.value === "") {
         error.style.display = "block";
+        decodeEmpty.style.display = "flex";
+        decodeResult.style.display = "none";
     } else {
         resultText.innerHTML = `${textEncrypt}`;
         textarea.value = "";
