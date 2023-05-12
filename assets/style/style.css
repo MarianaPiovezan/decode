@@ -57,7 +57,6 @@ body{
 .logo img{
   
   width: 3.5rem;
-  height: fit-content;
   margin-right: 8px;}
 
 /* .logo span{
@@ -66,7 +65,6 @@ body{
 
 
 main{
-  height: fit-content;
   padding: 7rem 0 2rem 0;
   background-color: var(--gradient-light-color);
   background-image: var(--gradient-light);
