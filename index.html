@@ -21,13 +21,13 @@
   </header>
   <main>
     <div class="container project ">
-      <p class="error">Ops... Digite uma palavra ou mensagem antes de apertar o botão!</p>
+      <p class="error">Ops... Digite antes de apertar o botão!</p>
       <form class="form-container ">
         <div>
           <textarea class="textarea" name="mesage" id="" rows="6"
             placeholder="Digite o que deseja criptografar"></textarea>
           <label class="label" for="mesage"> <img class="label-icon" src="./assets/images/icon-important.png"
-              alt="Informação importante" /> Apenas letras minúsculas e sem acento. </label>
+              alt="Informação importante" /> Palavras sem acentos e/ou caracteres expeciais. </label>
         </div>
         <div class="form-btn">
           <button id="btn-encrypt" type="button" class="btn btn-primary encrypt" >Criptografar</button>
@@ -47,14 +47,14 @@
       <div class="decode-result">
         <button id="btn-close-result">x</button>
         <p class="result-text"></p>
-        <button class="btn btn-copy"> Copiar</button>
+        <button id="btn-copy" class="btn">Copiar</button>
       </div>
     </div>
   </main>
   <footer>
     <div class="container footer">
       <div class="footer-brand">
-        <h1 class="logo"> <img src="./assets/images/logo.png" alt="Logo decodificador de texto"></h1>
+        <h1 class="logo"><img src="./assets/images/logo.png" alt="Logo decodificador de texto"></h1>
         <P>Desenvolvido por <strong> Mariana Piovezan </strong></P>
         <P>Challenge Programa ONE e Alura</P>
       </div>
@@ -70,6 +70,7 @@
   <script type="module" src="./js/encrypt.js"></script>
   <script type="module" src="./js/decrypt.js"></script>
   <script type="module" src="./js/close-result.js"></script>
+  <script type="module" src="./js/copy-text.js"></script>
 </body>
 
 </html>
