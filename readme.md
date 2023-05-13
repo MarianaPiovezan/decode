@@ -32,25 +32,29 @@ Construir um decodificador de texto com Javascript, CSS e HTML. Sem utilizar nen
 
 ## Projeto
 
-Decodificador de texto finalizado pode ser utilizado clicando [aqui](https://decode-navy.vercel.app/)
+Decodificador de texto finalizado pode ser utilizado clicando [aqui](https://decode-navy.vercel.app/).
 
 <details>
   <summary>Personagem</summary>
+  <img src="./assets/images/robot.png" alt="Robô sorrindo" width="30%" style="padding:2rem;" >
       
 </details>
 
 <details>
   <summary>Versão Mobile</summary>
-      
+  <img src="./assets/images/mobile1.jpeg" alt="Versão mobile" width="30%" style="padding:2rem;" >
+  <img src="./assets/images/mobile2.jpeg" alt="Versão mobile" width="30%" style="padding:2rem;" >
 </details>
 
 <details>
   <summary>Versão Tablet</summary>
+  <img src="./assets/images/tablet.png" alt="Versão tablet" width="50%" style="padding:2rem;" >
       
 </details>
             
 <details>
   <summary> Versão Desktop</summary>
+  <img src="./assets/images/desktop.png" alt="Versão desktop" width="100%" style="padding:2rem;" >
       
 </details>
 
