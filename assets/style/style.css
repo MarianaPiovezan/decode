@@ -33,7 +33,7 @@ html{
 }
 
 body{
-  width: 100vw;
+  width: 100%;
   font-family: var(--text);
   display: block;
   position: relative;
@@ -68,7 +68,7 @@ main{
   padding: 7rem 0 2rem 0;
   background-color: var(--gradient-light-color);
   background-image: var(--gradient-light);
-
+ overflow: hidden;
   font-weight: 400;
 }
 
